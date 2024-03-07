@@ -29,20 +29,24 @@
       "type": "array",
       "description": "Array of leagues that will be scraped. Available leagues: brazil, czechrepublic, germany, germany2, denmark, england, england2, spain, spain2, france, france2, greece, netherlands, italy, italy2, poland, portugal, russia, turkey",
       "editor": "stringList",
-      "default": ["England"],
-      "prefill": ["England"]
+      "default": ["spain"],
+      "prefill": ["spain"]
     },
     "season": {
       "title": "Season",
       "type": "string",
       "description": "Selects the season.",
-      "default": "2021-2022",
+      "default": "2023-2024",
       "editor": "select",
       "enum": [
+        "2023-2024",
+        "2022-2023",
         "2021-2022",
         "2020-2021"
       ],
       "enumTitles": [
+        "2023-2024",
+        "2022-2023",
         "2021-2022",
         "2020-2021"
       ],
